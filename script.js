@@ -5,7 +5,7 @@ function hasKey(key) {
 	console.log(hasKey("red"));
  console.log(hasKey("green"));
  console.log(hasKey("white"));
-	
+return key in sampleObject;	
 	
 }
 
