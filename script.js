@@ -1,10 +1,10 @@
 const sampleObject = { red: "#FF0000", green: "#00FF00", white: "#FFFFFF" };
-
-function hasKey(key) {
-  //   write your code here
-	console.log(hasKey("red"));
+console.log(hasKey("red"));
  console.log(hasKey("green"));
  console.log(hasKey("white"));
+
+function hasKey(key) {
+  //   write your code he
 return key in sampleObject;	
 	
 }
